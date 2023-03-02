@@ -1,0 +1,18 @@
+.icons {
+  transition: all 0.3s;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1) translateY(-3px);
+  }
+}
+.edit {
+  // display: none;
+  opacity: 0;
+  transition: all 0.7s;
+  cursor: pointer;
+}
+
+.string:hover .edit {
+  // display: block;
+  opacity: 0.5;
+}

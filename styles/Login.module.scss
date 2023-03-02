@@ -1,0 +1,19 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: fit-content;
+  padding: 3rem;
+}
+
+.wrapper {
+  width: 80%;
+  min-width: 300px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem;
+}

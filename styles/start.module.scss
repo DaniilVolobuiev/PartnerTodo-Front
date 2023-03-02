@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  font-size: 3rem;
+  min-height: 100vh;
+  height: fit-content;
+}
